@@ -1,0 +1,8 @@
+piyushgarg->kafka crashcourse
+kafka has high throughput
+millions of operation can be easily done in kafka i.e high ops(operation per second)
+not an alternative to database
+storage is temporary and very low
+in otherhand db has higher storage but throughput is very low
+in db we can query data but not in kafka
+ 
