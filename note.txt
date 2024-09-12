@@ -6,3 +6,31 @@ storage is temporary and very low
 in otherhand db has higher storage but throughput is very low
 in db we can query data but not in kafka
  
+
+architechture:
+---------------
+uber-vehicle(speed,location etc) ----> kafka ----->postgres  (direct communication cann create throughput problem)
+     (producers)                    (consumers) ---->fare \
+                                         |----->analytics - {bulk insert into db}
+                                         |------>customer /
+
+            / ==topic-1  (rider data) {data cluttering when amount increase} => solve by partition
+kafka-server
+  broker    \ ==topic-2  (consumer data)   {for production and consumption}
+                 | ====> partition-1 \  {based on various condition}
+                 | ====> partition-2 /   (work on indexing or some logic)
+-->partition allocation works on auto-balancing or self-balancing concept
+one consumer can consume multiple partition but one partition only can consumed by only one
+
+
+consumer groups :
+-----------------
+auto-balancing works on group level
+=>by using groups and consumer-producer concept we can implement both queue and pub-sub model
+
+
+gist::  https://gist.github.com/piyushgarg-dev/32cadf6420c452b66a9a6d977ade0b01
+
+kafka-zookeeper ::  https://www.openlogic.com/blog/using-kafka-zookeeper
+work together to form a kafka cluster
+distributed clustering services , kafka handle = data streams and connectivity to clients.  
