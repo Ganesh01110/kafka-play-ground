@@ -47,6 +47,20 @@ Implementation of publish-subscribe patterns and message queuing using Redis.
 
 ---
 
+### 4. [OpenAPI Specialization](./week-20-openapi)
+Advanced API development using OpenAPI Specification, featuring a full-stack task management demonstration.
+
+**Technologies**: OpenAPI 3.0, Express, Hono, React, Zod, openapi-typescript-codegen
+
+**Key Features**:
+- **Contract-First Development**: API definitions act as the single source of truth.
+- **Type-Safe Full-stack Demo**: Auto-generated TypeScript clients for seamless frontend-backend integration.
+- **Multi-Framework Integration**: Implementations using both Express and Hono.
+- **Interactive Documentation**: Integrated Swagger UI for API exploration and testing.
+
+[📖 View Full Documentation](./week-20-openapi/OPENAPI_ANALYSIS.md)
+
+
 ## 🎯 Purpose
 
 This monorepo serves as a learning playground for backend messaging and caching technologies. Each sub-project maintains its own commit history and can be explored independently.
