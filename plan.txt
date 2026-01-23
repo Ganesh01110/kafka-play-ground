@@ -1,0 +1,11 @@
+here i want to restructure my github where i want  to merge some of my projects while preserving their commit histpry , so all u have to do clone the under given repo (create a new folder under which u have to these)
+
+https://github.com/Ganesh01110/redis_pubsub-queue_in_nodejs.git(nothing in main brance so jump to master and extract the codes from master branch and readme file from main branch)
+and https://github.com/Ganesh01110/redis-play-ground.git (in another subfolder of the project) 
+
+into https://github.com/Ganesh01110/kafka-play-ground.git (move all its file to another subfolder)
+
+make a centralised(root) readme file connecting its own subfolders readme file and some text as description about explaining what all this project about in short (in root readme) , i will later chage the name of this folder after all task are done ..
+
+do it and i will check mannualy if its done or not then u will commit with below details , commiter name :: Ganesh sahu
+                commiter email :: ganehsahu0108@gmail.com
