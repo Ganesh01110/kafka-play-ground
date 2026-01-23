@@ -9,3 +9,16 @@ make a centralised(root) readme file connecting its own subfolders readme file a
 
 do it and i will check mannualy if its done or not then u will commit with below details , commiter name :: Ganesh sahu
                 commiter email :: ganehsahu0108@gmail.com
+
+all set , push into     https://github.com/Ganesh01110/kafka-play-ground.git  with    details commiter name :: Ganesh sahu
+                commiter email :: ganehsahu0108@gmail.com         
+
+https://github.com/Ganesh01110/kafka-play-ground.git name changed to https://github.com/Ganesh01110/kafkaNredis-play-ground.git       
+and prepare a commit for this fullstack new project and while preserving the commit history of openspec and openapi-week20 commit history , maintain the continuity and push to the github        
+
+
+run this project after cloning it here in a subfolder :: https://github.com/Ganesh01110/week-20-openapi-specialization.git   and say me if its working or not and what is this project about while explaining why this thing used in mern   
+
+
+add comments at codes in code files explaining what, how the below codes are doing for future understanding and
+create a readme(integrating fullstack openapi demo file) explaining what this project do , how this folders(frontend , backend , shared) are linked to each other , how a user can get grasp/understanding about what is happening behind the scene , how to access openapi spec in browser of this project and use it for understanding/navigating in frontend/backend
